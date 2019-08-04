@@ -45,7 +45,6 @@ names = animals.map(x => {
 // List transformations
 // Map, Filter, and Reject
 
-
 // Reduce is the multi-tool
 var orders = [
     {amount: 250},
