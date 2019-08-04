@@ -12,11 +12,11 @@ var output = fs.readFileSync('data.txt', 'utf8')
             name: line[1],
             price: line[2],
             quantity: line[3],
-        })
+        });
         return customers;
     }, {});
 
 // Convert this into a JSON
-console.log(JSON.stringify(output, null, 2));
+// console.log(JSON.stringify(output, null, 2));
 
 
